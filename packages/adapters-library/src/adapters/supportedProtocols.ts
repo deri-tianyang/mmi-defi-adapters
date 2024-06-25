@@ -31,6 +31,7 @@ import { CurvePoolAdapter } from './curve/products/pool/curvePoolAdapter'
 
 import { CurveStakingAdapter } from './curve/products/staking/curveStakingAdapter'
 import { CurveVotingEscrowAdapter } from './curve/products/voting-escrow/curveVotingEscrowAdapter'
+import { DeriPoolAdapter } from './deri/products/pool/deriPoolAdapter'
 import { EthenaStakedUsdeAdapter } from './ethena/products/staked-usde/ethenaStakedUsdeAdapter'
 import { FluxBorrowMarketAdapter } from './flux/products/borrow-market/fluxBorrowMarketAdapter'
 import { FluxSupplyMarketAdapter } from './flux/products/supply-market/fluxSupplyMarketAdapter'
@@ -181,6 +182,12 @@ export const supportedProtocols: Record<
     [Chain.Avalanche]: [CurvePoolAdapter, CurveStakingAdapter],
     [Chain.Optimism]: [CurvePoolAdapter, CurveStakingAdapter],
     [Chain.Base]: [CurvePoolAdapter, CurveStakingAdapter],
+  },
+
+  [Protocol.Deri]: {
+    [Chain.Bsc]: [DeriPoolAdapter],
+    [Chain.Arbitrum]: [DeriPoolAdapter],
+    [Chain.Linea]: [DeriPoolAdapter],
   },
 
   [Protocol.Ethena]: {
