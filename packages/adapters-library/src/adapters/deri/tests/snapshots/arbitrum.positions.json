@@ -1,22 +1,20 @@
 {
   "blockNumber": 225214200,
+  "aggregatedValues": ["USD1,771.93"],
   "snapshot": [
     {
       "protocolId": "deri",
       "name": "Deri",
       "description": "Deri defi adapter",
-      "siteUrl": "https:",
-      "iconUrl": "https://",
+      "siteUrl": "https://deri.io",
+      "iconUrl": "https://deri.io/favicon.ico",
       "positionType": "supply",
       "chainId": 42161,
       "productId": "pool",
-      "assetDetails": {
-        "type": "NonStandardErc20"
-      },
       "success": true,
       "tokens": [
         {
-          "address": "0xd849c2b7991060023e5d92b92c68f4077ae2c2ba",
+          "address": "0xD849c2b7991060023e5D92b92c68f4077AE2C2Ba",
           "tokenId": "452312848583266388373385778560718648249770263156390604487522901302855073939",
           "name": "DLT",
           "symbol": "DLT",
