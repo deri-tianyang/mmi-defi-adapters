@@ -37,6 +37,7 @@ import { Protocol } from './protocols'
 import { testCases as quickswapV2TestCases } from './quickswap-v2/tests/testCases'
 import { testCases as rocketPoolTestCases } from './rocket-pool/tests/testCases'
 import { testCases as sonneTestCases } from './sonne/tests/testCases'
+import { testCases as sparkV1TestCases } from './spark-v1/tests/testCases'
 import { testCases as stakeWiseTestCases } from './stakewise/tests/testCases'
 import { testCases as stargateTestCases } from './stargate/tests/testCases'
 import {
@@ -49,6 +50,8 @@ import { testCases as syncSwapTestCases } from './syncswap/tests/testCases'
 import { testCases as uniswapV2TestCases } from './uniswap-v2/tests/testCases'
 import { testCases as uniswapV3TestCases } from './uniswap-v3/tests/testCases'
 import { testCases as xfaiTestCases } from './xfai/tests/testCases'
+
+import { testCases as deriTestCases } from './deri/tests/testCases'
 
 const TEST_TIMEOUT = 300000
 
@@ -87,6 +90,7 @@ const protocolTestCases = {
   [Protocol.QuickswapV2]: quickswapV2TestCases,
   [Protocol.RocketPool]: rocketPoolTestCases,
   [Protocol.Sonne]: sonneTestCases,
+  [Protocol.SparkV1]: sparkV1TestCases,
   [Protocol.StakeWise]: stakeWiseTestCases,
   [Protocol.Stargate]: stargateTestCases,
   [Protocol.SushiswapV2]: sushiswapV2TestCases,

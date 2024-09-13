@@ -9,10 +9,7 @@
       "iconUrl": "https://app.pendle.finance/favicon.ico",
       "positionType": "supply",
       "chainId": 1,
-      "productId": "market",
-      "assetDetails": {
-        "type": "StandardErc20"
-      },
+      "productId": "principle-token",
       "success": true,
       "tokens": [
         {
